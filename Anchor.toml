@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+firstcustomproject = "2veFFi6gJ9TsbHNydxusajoFwKoV6hwWn3HYzhtMACy9"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/mihir/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
